@@ -137,8 +137,38 @@ local function move( event )
 	if mountain_small2.x > 480 + mountain_small2.width /2 then
 		mountain_small2:translate( -480 * 2, 0 )
 	end
-	if  then
-		
+	if tree_s.x > 480 + tree_s.width /2 then
+		tree_s:translate( -480 * 2, 0 )
+	end
+	if tree_s2.x > 480 + tree_s2.width /2 then
+		tree_s2:translate( -480 * 2, 0 )
+	end
+	if tree_l.x > 480 + tree_l.width /2 then
+		tree_l:translate( -480 * 2, 0 )
+	end
+	if tree_s3.x > 480 + tree_s3.width/2 then
+		tree_s3:translate( -480*2, 0 )
+	end
+	if tree_s4.x > 480 + tree_s4.width/2 then
+		tree_s4:translate( -480*2, 0 )
+	end
+	if tree_l2.x > 480 + tree_l2.width/2 then
+		tree_l2:translate( -480*2, 0 )
+	end
+	if tree_s5.x > 480 + tree_s5.width/2 then
+		tree_s5:translate( -480*2, 0 )
+	end
+	if tree_s6.x > 480 + tree_s6.width/2 then
+		tree_s6:translate( -480*2, 0 )
+	end
+	if tree_l3.x > 480 + tree_l3.width/2 then
+		tree_l3:translate( -480*2, 0 )
+	end
+	if tree_l_sugi.x > 480 + tree_l_sugi.width/2 then
+		tree_l_sugi:translate( -480*4, 0 )
+	end
+	if tree_l_take.x > 480 + tree_l_take.width/2 then
+		tree_l_take:translate( -480*5, 0 )
 	end
 
 
